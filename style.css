@@ -34,6 +34,25 @@ header .headline {
 	display: inline-block;
 	margin-left: 20px;
 }
+
+@media screen and (max-width:1024px) {
+	.social i {
+		cloror: green;
+	}
+}
+
+@media screen and (max-width:768px) {
+	.social i {
+		cloror: red;
+	}
+}
+
+@media screen and (max-width:425px) {
+	.social i {
+		cloror: blue;
+	}
+}
+
 .nav-list {
 	text-align: center;
 	padding: 10px 0;
